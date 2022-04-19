@@ -1,0 +1,36 @@
+.rectangle {
+	
+	  height:419px;                                                                                             width:1533px;                                                                              
+	  background: #333333;                        
+	  display: flex;                            
+	  justify-content: space-around;                                                                            margin-top:-9px;
+	  margin-left:-7px;
+  }
+												
+												
+.box1 {
+														  height:64px;
+	width: 218;
+	margin-left: -1123px;
+	margin-top: 34px;
+	border: 2px solid #fff6df;
+}
+.line{
+	  
+	  width: calc(1.414 * 78px);
+ 	  transform: rotate(22deg);
+          transform-origin: top left;
+	  border-top: 2px solid #fff6df;
+	  position: absolute;
+	  top: 57px;
+          left: 191px;
+
+}
+.line1{
+	  width: calc(1.414 * 73px);
+	  transform: rotate(-44deg);
+          transform-origin: bottom left;
+	  border-top: 2px solid #fff6df;
+          position: absolute;
+          bottom: -71px;
+	  left: -73px;
